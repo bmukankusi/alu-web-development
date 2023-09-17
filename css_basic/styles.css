@@ -3,6 +3,7 @@ body, main {
 }
 body {
 	flex-direction: column;
+	 font-family: Arial, sans-serif;
 }
 main {
 	flex-direction: row;
@@ -11,9 +12,25 @@ main {
 article {
 	flex: 2;
 	overflow-y: auto;
+        background-color: gray;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
 }
 aside {
 	flex: 1;
 	overflow-y: auto;
+	background-color: lightgray;
 }
-
+header {
+	background-color: lightpink;
+        color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.logo {
+    font-size: 25px;
+    margin-right:12px;
+}
