@@ -3,3 +3,4 @@ In this and coming projects, I will implement from scratch a webpage from a desi
 For this first project,  will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
 By implementing HTML semantic, I will use HTML elements like DTD, head, body, paragraph, and others to build this webpage. It will be about content and structure since I am only using HTML. 
 This is gonna be great!
+![An image in a README file!](image-url)
