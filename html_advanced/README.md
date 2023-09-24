@@ -5,7 +5,9 @@ By implementing HTML semantic, I will use HTML elements like DTD, head, body, pa
 This is gonna be great!
 
 
-![](images_alu-web-dvt/smile.png)                 ![](Screenshot%20(47).png)
+![](images_alu-web-dvt/smile.png)
+
+ ![](Screenshot%20(47).png)
 
 
 
