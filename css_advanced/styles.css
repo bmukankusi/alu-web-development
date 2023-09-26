@@ -6,6 +6,7 @@ header{
 }
 .link {
     flex: 1;
+    color: lightblue;
     text-align: right;
     margin-left: 10px;
     margin-right: 10px;
@@ -28,7 +29,7 @@ header{
     font-weight: bold;
 }
 body{
-    background-image: url('html_advanced/images_alu-web-dvt/background.png');
+    background-image: url('images_alu-web-dvt/background.png');
     background-repeat: no-repeat;
     background-size: 110%;
     margin: 0px;
@@ -67,35 +68,21 @@ body{
 .sp1 {
     color: #C271FF;
 }
-.smile {
+.smiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-left: 500px;
-    text-align: center;
-    padding-top: 0px;
-    font-size: 16px;
-    color: white;
-    font-family: sans-serif;
-}
-.grin {
-    padding-left: 100px;
-    text-align: center;
-    padding-top: 0px;
-    font-size: 16px;
-    color: white;
-    font-family: sans-serif;
-}
-.laugh {
-    padding-left: 100px;
-    text-align: center;
-    padding-top: 0px;
+    padding-right: 500px;
     font-size: 16px;
     color: white;
     font-family: sans-serif;
 }
 
+
 .button1{
-    box-shadow: 0px 2px 20px 0px #00000080;
     width: 162px;
-    height: 44px;
+    height: 60px;
     top: 419px;
     left: 639px;
     font-family: Source Sans Pro;
@@ -109,6 +96,7 @@ body{
     border-radius: 22px;
     color: white;
 }
+
 
 .avatars{
     display: flex;
@@ -155,32 +143,34 @@ body{
 .pop {
     color: #C271FF;
 }
-.video {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .tutorials {
-    width: 255px;
-    height: 335px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+
 }
 .author {
     display: flex;
     flex-direction: row;
     text-align: center;
-    
+    padding-top: 0px;
     height: 30px;
 }
 .star {
     display: flex;
     flex-direction: row;
     height: 15px;
-    margin-top: 10px;
+    margin-top: 0px;
     
 }
 #name {
     margin-top: 4px;
     margin-left: 8px;
 }
+
 .time {
     margin-top: 0px;
     margin-left: 90px;
@@ -195,7 +185,7 @@ body{
     margin-top: 70px;
     padding-top: 40px;
     padding-bottom: 70px;
-    background-color: #071629;
+    background-color: rgb(69, 69, 97);
 }
 .l1{
     text-align: center;
@@ -239,32 +229,40 @@ body{
     display: flex;
 }
 
-.FAQ {
+#FAQ {
     text-align: center;
     font-size: 60px;
     font-weight: 500;
     line-height: 75px;
-    font-family:'Courier New', Courier, monospace ;
+    font-family: 'Times New Roman', Times, serif;
 }
 .FAQ1 {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: row;   
     
-    
-    
-    
+}
+#tit{
+    display: flex;
+    align-content: center;
 }
 .FAQ2 {
-    width: 350px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 
-.footer{
+.footer {
     background-color: #071629;
+    display: flex;
     margin-top: 30px;
     padding-top: 50px;
     box-sizing: border-box;
+}
+#foot {
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
 }
 .pic{
     padding-left: 100px;
@@ -278,7 +276,7 @@ body{
 }
 .text{
     text-align: center;
-    opacity: 0.35;
+    color: black;
 }
   
    
